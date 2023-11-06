@@ -9,13 +9,13 @@ $(function () {
     }
     displayTime();
 
-    var timeboxEl = document.getElementsByClassName("time-block");
+    var timeboxEl = document.querySelectorAll(".time-block");
     for (var i=0; i < timeboxEl.length; i++) {
         var hour = today.format("H");
-        var timeboxhour = timeboxEl[i].id;
+        var timeboxhour = Number(timeboxEl[i].id);
         console.log(timeboxhour);
         if (timeboxhour < hour) {
-            timeboxEl[i].setAttribute("class", "past")
+            timeboxEl[i].childNodes[3].classList.add("past")
         }
     }
   
