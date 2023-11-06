@@ -17,6 +17,12 @@ $(function () {
         if (timeboxhour < hour) {
             timeboxEl[i].childNodes[3].classList.add("past")
         }
+        else if (timeboxhour == hour) {
+            timeboxEl[i].childNodes[3].classList.add("present")
+        }
+        if (timeboxhour > hour) {
+            timeboxEl[i].childNodes[3].classList.add("future")
+        }
     }
   
     
