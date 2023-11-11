@@ -7,3 +7,5 @@ https://www.tutorialspoint.com/How-to-get-the-value-of-the-id-attribute-a-link-i
 AskBCS Learning Assistant
 -Helped me with the Child Nodes instruction on the Javascript
 
+.on Request
+https://www.codecademy.com/forum_questions/55be6dd5d3292f851a00067c#:~:text=The%20.,the%20event%20listener%20is%20attached.
