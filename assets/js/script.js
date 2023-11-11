@@ -27,3 +27,10 @@ $(function () {
 
 })
 
+var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    if (hour == 0 && minute == 0) {
+      localStorage.removeItem("task");
+    }  
+

@@ -9,3 +9,6 @@ AskBCS Learning Assistant
 
 .on Request
 https://www.codecademy.com/forum_questions/55be6dd5d3292f851a00067c#:~:text=The%20.,the%20event%20listener%20is%20attached.
+
+Reset Local Storage
+https://www.reddit.com/r/learnjavascript/comments/z2vrjx/i_want_to_removereset_a_local_storage_item/
